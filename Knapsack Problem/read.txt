@@ -1,0 +1,18 @@
+
+		Implementation of Knapsack Problem in python.
+
+
+about the problem  :analogy :->  Suppose you are in  a restaurants and you have a calorie budget and want take appropriate amount of food to complete that.
+But you also have some foods that you like more than other foods.
+
+and you want to order food in such a way that , your calorie requirment is fulfilled and
+also you get the food that you want more.
+
+
+This is Knapsack Problem , and the calorie and other stuff are constraints .
+
+In the module we have a python script Food , i.e to make our life better and to 
+Structure the code also .
+
+Then we have another script Optimization in which the problem is implemented.
+			
