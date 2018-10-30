@@ -1,0 +1,25 @@
+
+
+Output : 
+
+
+
+Use Greedy by Value to allocate  750 calories
+    burger: < 100 , 354 >
+    pizza: < 95 , 258 >
+    wine: < 89 , 123 >
+
+Use Greedy by Value to allocate  750 calories
+    apple: < 50 , 95 >
+    wine: < 89 , 123 >
+    cola: < 79 , 150 >
+    beer: < 90 , 154 >
+    donut: < 10 , 195 >
+
+Use Greedy by Value to allocate  750 calories
+    wine: < 89 , 123 >
+    beer: < 90 , 154 >
+    cola: < 79 , 150 >
+    apple: < 50 , 95 >
+    donut: < 10 , 195 >
+
