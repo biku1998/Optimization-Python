@@ -52,6 +52,7 @@ def greedy(items , maxCost , keyFunction):
 def testGreedy(items, constraint, keyFunction):
     # this function will test the grredy module
     taken , val = greedy(items,constraint,keyFunction)
+    print('Total value of items taken =', val)
     for item in taken:
         print('   ',item)
 
