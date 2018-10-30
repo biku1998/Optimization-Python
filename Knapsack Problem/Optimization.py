@@ -63,13 +63,13 @@ def testGreedys(foods,maxUnits):
 
     testGreedy(foods,maxUnits,Food.get_value)
 
-    print('\nUse Greedy by Value to allocate ',maxUnits,'calories')
+    print('\nUse Greedy by cost to allocate ',maxUnits,'calories')
 
     testGreedy(foods,maxUnits,lambda x : 1/Food.get_cost(x))
     # testGreedy(foods,maxUnits,lambda x : Food.get_cost(x))
 
 
-    print('\nUse Greedy by Value to allocate ',maxUnits,'calories')
+    print('\nUse Greedy by density to allocate ',maxUnits,'calories')
 
     testGreedy(foods,maxUnits,Food.density)
 
